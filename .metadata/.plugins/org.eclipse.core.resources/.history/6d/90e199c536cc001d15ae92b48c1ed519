@@ -1,0 +1,25 @@
+package com.dio;
+
+import br.com.dio.Gato;
+
+public class PrimeiroPrograma2023 {
+	public static void main(String[] args) {
+		
+		Gato gato = new Gato();
+		Livro livro = new Livro();
+		
+		System.out.println(gato);
+		System.out.println(livro);
+		
+		/*Sysout -> ctrl + space (Atalho)*/
+		
+		/*int a = 2;
+		int b = 3;
+		System.out.println("Ola! Marconi Santos. " + (a + b));*/
+	}
+}
+
+class Livros {
+	private String nome;
+	private String npag;
+}
